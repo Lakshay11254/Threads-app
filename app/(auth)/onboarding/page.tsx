@@ -2,7 +2,7 @@ async function Page() {
     return(
         <main>
             <h1 className="head-text">
-                Onboarding
+                Onboarding Page
             </h1>
         </main>
     )
