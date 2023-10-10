@@ -18,12 +18,12 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import { UserValidation } from "@/lib/validations/user";
 
+import { useUploadThing } from "@/lib/uploadthing";
 import { isBase64Image } from "@/lib/utils";
-import { useUploadThing } from "@/lib/validations/uploadthing";
-import { updateUser } from "@/lib/actions/user.actions";
 
+import { UserValidation } from "@/lib/validations/user";
+import { updateUser } from "@/lib/actions/user.actions";
 
 interface Props {
   user: {
